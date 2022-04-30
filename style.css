@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(jjj.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+   
+    font-family: sans-serif;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    top: 1px;
+    left: 2px;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 2px;
+}
+.ser{
+    width: 150px;
+    height: 30px;
+    top: 25px;
+    right: 20px;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+
+.menu-bar
+{
+    background: rgb(12, 37, 24);
+  text-align: center;
+
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    padding: 15px;
+    margin: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #2ab;
+    border-radius: 3px;
+    z-index: 1000;
+
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover  .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(12,37,24);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover  .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover  .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover  .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}.menu-bar ul li:hover  .sub-menu-1 ul li a:hover
+{
+color: #2ab;
+}
+.sub-menu-2
+{
+    display: none;
+}
+.pp-r:hover .sub-menu-2
+{
+display: block;
+position: absolute;
+margin-top: -40px;
+margin-left: 140px;
+background: rgb(12, 37, 24);
+}
+form{
+    display: block;
+    position: center;
+    margin: 15px;
+    padding: 15px;
+
+}
+#col{
+    margin: 50px;
+    padding: 20px;
+    right: 3px;
+    color: rgb(12,37,24);
+    font-size: 90px;
+}
+#coll{
+    margin: 50px;
+    padding: 20px;
+    right: 3px;
+    color: aquamarine;
+   font-size: 70px; 
+}
+.form{
+    width: 300px;
+    height: 380px;
+    background-color: rgb(12, 37, 24);
+    position: absolute;
+    top: 60px;
+    left: 970px;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 75px;
+    border-radius: 10px;
+}
+.form h2{
+    width: 220px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 32px;
+    /* background-color: #2ab; */
+}
+.btn{
+    width: 220px;
+    height: 40px;
+    /* color: orange; */
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+     padding: 10px;
+     margin-top: 10px;
+     text-decoration: none;
+font-family: sans-serif;
+}
+.btn :hover{
+   background-color:  red;
+
+}
+.form input{
+    width: 220px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: azure;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+.ty{
+    width: 220px;
+    height: 40px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    
+     padding: 20px;
+     margin: 50px;
+     text-decoration: none;
+font-family: sans-serif;
+
+}
+.ty :hover{
+   background-color: rgb(60, 167, 83);
+    
+}
+.acc{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+.pph{
+width: 1200px;
+height: auto;
+margin: auto;
+color: rgb(27, 8, 71);
+position: relative;
+}
+.pph.lrn{
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 15px;
+}
+.pph h1{
+    font-family: 'Times New Roman';
+    font-size: 60px;
+    padding-left: 20px;
+    padding-top: 15px;
+    letter-spacing: 2.0px;
+}
+.pph span{
+    color:rgb(110, 40, 19) ;
+    font-size: 70px;
+}
+@media screen and  (min-width: 380px) {
+    
+}
